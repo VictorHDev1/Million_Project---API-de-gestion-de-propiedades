@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{77652F0D-5362-40BB-8E08-5A9A181B982A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{DA976173-547E-4E5F-96B1-F6EA74504DD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{FC8EAA83-FC51-497B-BFC8-42925686DA63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{9FB1B72A-A5C8-4BAC-BF40-FCDCCDBD37E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{4A3259C3-ADFC-4AFF-8AF9-C066F9BC6BC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		D:\VictorLA\CV\Database\Create Trigger_ Tr_Owner_Delete.sql = D:\VictorLA\CV\Database\Create Trigger_ Tr_Owner_Delete.sql
+		D:\VictorLA\CV\Database\Create Trigger_ Tr_Owner_Insert.sql = D:\VictorLA\CV\Database\Create Trigger_ Tr_Owner_Insert.sql
+		D:\VictorLA\CV\Database\Create Trigger_ Tr_Owner_UPDATE.sql = D:\VictorLA\CV\Database\Create Trigger_ Tr_Owner_UPDATE.sql
+		D:\VictorLA\CV\Database\Create Trigger_ Tr_Property_Insert.sql = D:\VictorLA\CV\Database\Create Trigger_ Tr_Property_Insert.sql
+		D:\VictorLA\CV\Database\Create Trigger_Tr_PropertyImage_DELETE.sql = D:\VictorLA\CV\Database\Create Trigger_Tr_PropertyImage_DELETE.sql
+		D:\VictorLA\CV\Database\Create Trigger_Tr_PropertyImage_Insert.sql = D:\VictorLA\CV\Database\Create Trigger_Tr_PropertyImage_Insert.sql
+		D:\VictorLA\CV\Database\Create Trigger_Tr_PropertyImage_UPDATE.sql = D:\VictorLA\CV\Database\Create Trigger_Tr_PropertyImage_UPDATE.sql
+		D:\VictorLA\CV\Database\Create Trigger_Tr_Property_Delete.sql = D:\VictorLA\CV\Database\Create Trigger_Tr_Property_Delete.sql
+		D:\VictorLA\CV\Database\Create Trigger_Tr_Property_UPDATE.sql = D:\VictorLA\CV\Database\Create Trigger_Tr_Property_UPDATE.sql
+		D:\VictorLA\CV\Database\Create_Index.sql = D:\VictorLA\CV\Database\Create_Index.sql
+		D:\VictorLA\CV\Database\Create_Table.sql = D:\VictorLA\CV\Database\Create_Table.sql
+		D:\VictorLA\CV\Database\Create_Table_Audit.sql = D:\VictorLA\CV\Database\Create_Table_Audit.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77652F0D-5362-40BB-8E08-5A9A181B982A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77652F0D-5362-40BB-8E08-5A9A181B982A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77652F0D-5362-40BB-8E08-5A9A181B982A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{77652F0D-5362-40BB-8E08-5A9A181B982A}.Debug|x64.Build.0 = Debug|Any CPU
+		{77652F0D-5362-40BB-8E08-5A9A181B982A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{77652F0D-5362-40BB-8E08-5A9A181B982A}.Debug|x86.Build.0 = Debug|Any CPU
+		{77652F0D-5362-40BB-8E08-5A9A181B982A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77652F0D-5362-40BB-8E08-5A9A181B982A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77652F0D-5362-40BB-8E08-5A9A181B982A}.Release|x64.ActiveCfg = Release|Any CPU
+		{77652F0D-5362-40BB-8E08-5A9A181B982A}.Release|x64.Build.0 = Release|Any CPU
+		{77652F0D-5362-40BB-8E08-5A9A181B982A}.Release|x86.ActiveCfg = Release|Any CPU
+		{77652F0D-5362-40BB-8E08-5A9A181B982A}.Release|x86.Build.0 = Release|Any CPU
+		{DA976173-547E-4E5F-96B1-F6EA74504DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA976173-547E-4E5F-96B1-F6EA74504DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA976173-547E-4E5F-96B1-F6EA74504DD0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DA976173-547E-4E5F-96B1-F6EA74504DD0}.Debug|x64.Build.0 = Debug|Any CPU
+		{DA976173-547E-4E5F-96B1-F6EA74504DD0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DA976173-547E-4E5F-96B1-F6EA74504DD0}.Debug|x86.Build.0 = Debug|Any CPU
+		{DA976173-547E-4E5F-96B1-F6EA74504DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA976173-547E-4E5F-96B1-F6EA74504DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA976173-547E-4E5F-96B1-F6EA74504DD0}.Release|x64.ActiveCfg = Release|Any CPU
+		{DA976173-547E-4E5F-96B1-F6EA74504DD0}.Release|x64.Build.0 = Release|Any CPU
+		{DA976173-547E-4E5F-96B1-F6EA74504DD0}.Release|x86.ActiveCfg = Release|Any CPU
+		{DA976173-547E-4E5F-96B1-F6EA74504DD0}.Release|x86.Build.0 = Release|Any CPU
+		{FC8EAA83-FC51-497B-BFC8-42925686DA63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8EAA83-FC51-497B-BFC8-42925686DA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8EAA83-FC51-497B-BFC8-42925686DA63}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FC8EAA83-FC51-497B-BFC8-42925686DA63}.Debug|x64.Build.0 = Debug|Any CPU
+		{FC8EAA83-FC51-497B-BFC8-42925686DA63}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FC8EAA83-FC51-497B-BFC8-42925686DA63}.Debug|x86.Build.0 = Debug|Any CPU
+		{FC8EAA83-FC51-497B-BFC8-42925686DA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8EAA83-FC51-497B-BFC8-42925686DA63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8EAA83-FC51-497B-BFC8-42925686DA63}.Release|x64.ActiveCfg = Release|Any CPU
+		{FC8EAA83-FC51-497B-BFC8-42925686DA63}.Release|x64.Build.0 = Release|Any CPU
+		{FC8EAA83-FC51-497B-BFC8-42925686DA63}.Release|x86.ActiveCfg = Release|Any CPU
+		{FC8EAA83-FC51-497B-BFC8-42925686DA63}.Release|x86.Build.0 = Release|Any CPU
+		{9FB1B72A-A5C8-4BAC-BF40-FCDCCDBD37E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB1B72A-A5C8-4BAC-BF40-FCDCCDBD37E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB1B72A-A5C8-4BAC-BF40-FCDCCDBD37E9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9FB1B72A-A5C8-4BAC-BF40-FCDCCDBD37E9}.Debug|x64.Build.0 = Debug|Any CPU
+		{9FB1B72A-A5C8-4BAC-BF40-FCDCCDBD37E9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9FB1B72A-A5C8-4BAC-BF40-FCDCCDBD37E9}.Debug|x86.Build.0 = Debug|Any CPU
+		{9FB1B72A-A5C8-4BAC-BF40-FCDCCDBD37E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB1B72A-A5C8-4BAC-BF40-FCDCCDBD37E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB1B72A-A5C8-4BAC-BF40-FCDCCDBD37E9}.Release|x64.ActiveCfg = Release|Any CPU
+		{9FB1B72A-A5C8-4BAC-BF40-FCDCCDBD37E9}.Release|x64.Build.0 = Release|Any CPU
+		{9FB1B72A-A5C8-4BAC-BF40-FCDCCDBD37E9}.Release|x86.ActiveCfg = Release|Any CPU
+		{9FB1B72A-A5C8-4BAC-BF40-FCDCCDBD37E9}.Release|x86.Build.0 = Release|Any CPU
+		{4A3259C3-ADFC-4AFF-8AF9-C066F9BC6BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A3259C3-ADFC-4AFF-8AF9-C066F9BC6BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A3259C3-ADFC-4AFF-8AF9-C066F9BC6BC5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4A3259C3-ADFC-4AFF-8AF9-C066F9BC6BC5}.Debug|x64.Build.0 = Debug|Any CPU
+		{4A3259C3-ADFC-4AFF-8AF9-C066F9BC6BC5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4A3259C3-ADFC-4AFF-8AF9-C066F9BC6BC5}.Debug|x86.Build.0 = Debug|Any CPU
+		{4A3259C3-ADFC-4AFF-8AF9-C066F9BC6BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A3259C3-ADFC-4AFF-8AF9-C066F9BC6BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A3259C3-ADFC-4AFF-8AF9-C066F9BC6BC5}.Release|x64.ActiveCfg = Release|Any CPU
+		{4A3259C3-ADFC-4AFF-8AF9-C066F9BC6BC5}.Release|x64.Build.0 = Release|Any CPU
+		{4A3259C3-ADFC-4AFF-8AF9-C066F9BC6BC5}.Release|x86.ActiveCfg = Release|Any CPU
+		{4A3259C3-ADFC-4AFF-8AF9-C066F9BC6BC5}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8194BCF9-123E-4191-93EE-3A00F10A3078}
+	EndGlobalSection
+EndGlobal
