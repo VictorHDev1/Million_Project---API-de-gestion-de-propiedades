@@ -91,7 +91,7 @@ Update_Property
 
 Ejemplo de Endpoints - Desarrollados
 Método	Endpoint	Descripción
-POS  /api/Aut/Login  Genera el token para autenticarse 
+POS  /api/Aut/Login  Genera el token para autenticarse  user "Admin" Password "1234"
 POST /api/property/Create_Property_Building	Crea una nueva propiedad
 PUT	/api/property/{id}/Change_Price?newPrice=200000	Cambia el precio de una propiedad
 GET	/api/property/List_Property_With_filters	Lista propiedades con filtros
