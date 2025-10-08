@@ -37,21 +37,33 @@ En SQL Server, ejecutar los scripts que están en la carpeta:
 
 en el siguiente orden:
 
-CreateTables.sql
+Restarurar BackUp base de datos
 
-Triggers.sql
+Temp_Developer.bak
 
-SeedData.sql
+Se relacionan scripts que ys estan en el bakcup por si se crean en otra base de datos 
+
+
+Create_Table.sql
+Create_Index.sql
+Stored_Procedure_[dbo].[Lis_Property].sql
+Stored_procedure_[dbo].[Update_Property].sql
+Stored_Procedure_INS_Property.sql
 
 Actualiza la cadena de conexión en:
 
-WebAPI/appsettings.json
+La conexion se realiza con usuario SQL "PropertyID" que tiene los permisos, no se asigna admin por seguridad  
 
+db_datereadeer
+db_datawriter
+Ejecutar_SP
+
+WebAPI/appsettings.json
 
 Ejemplo:
 
 "ConnectionStrings": {
-  "DefaultConnection": "Server=localhost;Database=MillionDB;Trusted_Connection=True;TrustServerCertificate=True;"
+  "DefaultConnection": "Server=MyServer;Database=Temp_Developer;User Id=PropertyID;Password=4f1L14xi0n3$1;TrustServerCertificate=True;MultipleActiveResultSets=True;"
 }
 
  3. Ejecutar la API
