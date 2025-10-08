@@ -1,6 +1,6 @@
 # Million_Project Prueba Técnica .NET 8
 
-Este proyecto fue desarrollado como parte de una prueba técnica para la empresa **Million Luxury**, utilizando una arquitectura por capas y aplicando buenas prácticas de desarrollo con **.NET 8**, **Entity Framework Core**, y **JWT Authentication**.
+Este proyecto fue desarrollado como parte de una prueba técnica, utilizando una arquitectura por capas y aplicando buenas prácticas de desarrollo con **.NET 8**, **Entity Framework Core**, y **JWT Authentication**.
 
 
 ## Arquitectura del Proyecto
