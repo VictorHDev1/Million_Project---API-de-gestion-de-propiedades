@@ -93,10 +93,38 @@ Ejemplo de Endpoints - Desarrollados
 Método	Endpoint	Descripción
 POS  /api/Aut/Login  Genera el token para autenticarse  user "Admin" Password "1234"
 POST /api/property/Create_Property_Building	Crea una nueva propiedad
+Ejemplo Json
+        {
+     
+      "name": "Miami_Beach",
+      "address": "5 av ",
+      "price": 256000,
+      "codeInternal": "PRO0012",
+      "year": 2025,
+      "idOwner": 1
+    }
+POST /api/property/Add_Image_From_Property	Crea una nueva imagen para la  propiedad
+    {
+    
+      "file": "https://example.com/images/property3-main.jpg",
+      "enabled": true
+    }
 PUT	/api/property/{id}/Change_Price?newPrice=200000	Cambia el precio de una propiedad
 GET	/api/property/List_Property_With_filters	Lista propiedades con filtros
 GET	/api/property/{id}	Obtiene una propiedad por ID
 PUT	/api/property/Update_Property	Actualiza la información de una propiedad
+Example Json 
+  {
+    "idProperty": 3,
+    "name": "UpdateProperti",
+    "address": "calle 17 - 15 20",
+    "price": 650000,
+    "codeInternal": "pro0002",
+    "year": 1990,
+    "idOwner": 2
+  
+  }
+
 
 Nombre: Victor Leaño
 Correo: victor.hl.ardila@gmail.com
